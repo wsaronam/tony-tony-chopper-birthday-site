@@ -1,0 +1,116 @@
+body {
+	background: linear-gradient(#a2d2ff, pink);
+	color: #ffffff;
+	
+	text-align: center;
+	
+    font-family: "Happy Monkey";
+}
+
+#chopper-image {
+	width: 250px;
+	height: 300px;
+	border-radius: 50%;
+	border: 10px solid #EFB0C9;
+}
+
+h1, h2, h3, h4, p {
+	text-shadow: 0px 0px 1px black;
+}
+
+#bday-age {
+	background: #EFB0C9;
+	font-size: 50px;
+	
+	padding: 10px 20px;
+	border-radius: 15px;
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#bday-date {
+	background: #EFB0C9;
+	font-size: 30px;
+	
+	padding: 10px 20px;
+	border-radius: 15px;
+	
+	margin-top: 10px;
+}
+
+#header {
+	/*
+	justify-content:
+    start, center, end, space-around, 
+    space-evenly, space-between
+    
+    align-items:
+    start, center, end
+    */
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.gift-section {
+	margin-top: 100px;
+}
+
+.gift-main {
+	font-size: 30px;
+}
+
+.gift-sub {
+	font-size: 25px;
+}
+
+.gift-img {
+	width: 400px;
+	height:400px;
+	border: 10px solid orange;
+	border-radius: 15px;
+	
+	background-image: url("images/chopper-jollyroger.jpg");
+	background-position: center;
+	background-size: cover;
+	
+	margin: 0px auto;
+}
+
+#chopper-happy:hover {
+	background-image: url("images/chopper-happy.gif");
+}
+
+#crew-happy:hover {
+	background-image: url("images/crew-happy.gif");
+}
+
+#chopper-eating:hover {
+	background-image: url("images/chopper-eating.gif");
+}
+
+#john-wick:hover {
+	background-image: url("images/john-wick.gif");
+}
+
+#crew-celebrating {
+	height: 200px;
+}
+
+#crew-celebrating:hover {
+	background-image: url("images/crew-celebrating.gif");
+}
+
+#footer {
+	font-style: italic;
+	
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+a {
+	color: white;
+}
